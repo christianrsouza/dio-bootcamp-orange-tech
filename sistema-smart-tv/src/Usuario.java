@@ -3,12 +3,27 @@ public class Usuario {
        
         SmartTv smartTv = new SmartTv();
 
-       System.out.println("Tv ligada? " + smartTv.ligada);
-       System.out.println("Canal Atual : "+smartTv.canal);
-       System.out.println("Volume Atual : "+smartTv.volume);
+        //aumentando e diminuindo volume
+        smartTv.diminuirVolume();
+        System.out.println("Volume atual: " + smartTv.volume);
+        smartTv.diminuirVolume();
+        System.out.println("Volume atual: " + smartTv.volume);
+        smartTv.diminuirVolume();
+        System.out.println("Volume atual: " + smartTv.volume);
+        smartTv.aumentarVolume();
+        System.out.println("Volume atual: " + smartTv.volume);
 
-       smartTv.ligar();
-       System.out.println("Novo StatusTv ligada? " + smartTv.ligada);
+        // mostrando status de tv ligada,canal,volume
+        System.out.println("Tv ligada? " + smartTv.ligada);
+        System.out.println("Canal Atual : "+smartTv.canal);
+        System.out.println("Volume Atual : "+smartTv.volume);
 
+        //verificando se esta ligada
+        smartTv.ligar();
+        System.out.println("Novo Status -> Tv ligada? " + smartTv.ligada);
+
+        //desligando
+        smartTv.desligar();
+        System.out.println("Novo Status -> Tv ligada? " + smartTv.ligada);
     }
 }
