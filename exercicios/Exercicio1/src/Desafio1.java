@@ -14,6 +14,7 @@ public class Desafio1 {
         int mesada = 50;
         int resultado = 0;
         resultado = entrada * mesada;
-        System.out.println("Valor da mesada em : "+ entrada+" Meses é = R$ "+ resultado );
+        //System.out.println("Valor da mesada em : "+ entrada+" Meses é = R$ "+ resultado );
+        System.out.println("Voce tera "+ resultado + " Reais" );
     }
 }
