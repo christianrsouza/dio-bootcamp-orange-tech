@@ -4,3 +4,5 @@
 •	Calcule o valor final de um empréstimo, a partir do valor solicitado. Taxas e parcelas influenciam. Defina arbitrariamente as faixas que influenciam nos valores.<br/>
 <h1>Aula 2 : Sobrecarga</h1>
 •	Cria uma aplicação que calcula a área dos 3 quadriláteros notável: quadrado, retângulo e trapézio usando sobrecarga <br/>
+<h1>Aula 3 : Retornos</h1>
+•	Recrie a aplicação que calcula a áreas dos 3 quadriláteros notáveis. Agora faça os métodos retornarem valores  <br/>
