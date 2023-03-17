@@ -23,10 +23,10 @@ Associação tipos: <br/>
 •	Apenas para praticar, codifique os exemplos dos slides anteriores sobre as associações.<br/> 
 <br/> 
 <h3>Aula 6 : Interface </h3>
-
 Apenas para praticar, crie uma interface chamada "OperacaoMatematica". Crie também 4 métodos das operações básicas: soma, subtração, multiplicação e divisão.
 
-
+<h3>Aula 7 : Pacotes </h3>
+<h3>Aula 7 : Visibilidade </h3>
 
 
 
