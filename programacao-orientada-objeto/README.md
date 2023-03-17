@@ -6,7 +6,7 @@
 •	Evolua o conceito do exercício 2 e defina 1 método para calcular o valor total para encher o tanque. Este deve receber como parâmetro o valor da gasolina. Faça também duas sobrecargas do construtor.<br/>
 Obs: Crie métodos específicos para fornecer e obter os valores dos atributos(set/get), caso aplicável. <br/>
 
-<h1> As relaçoes. Herança, Associação e Interface </h1>
+<h1> As relaçoes: Herança, Associação e Interface </h1>
 <h3>Aula 2 : Herança </h3>
 •	Crie a classe "Veiculo","Carro", "Moto" e "Caminhao". <br/> 
 <h3>Aula 3 : Herança upcast e downcast </h3>
