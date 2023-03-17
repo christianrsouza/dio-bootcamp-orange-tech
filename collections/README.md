@@ -1,13 +1,17 @@
-## Getting Started
+## Collections
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Collection é um objeto que agrupa múltiplos elementos (variáveis primitivas ou objetos) dentro de uma única unidade.
+Serve para armazenar e processar conjuntos de dados de forma eficiente.
 
-## Folder Structure
+## Composição Collections 
 
-The workspace contains two folders by default, where:
+- Interfaces: É um contrato que quando assumido por uma classe deve ser implementado.
+- Implementações ou Classes: são as materializações, a codificação das interfaces.
+- Algoritmos: É uma sequência lógica, finita e definida de instruções que devem ser seguidas para resolver um problema.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+
+## Hierarquia Collections 
+
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
