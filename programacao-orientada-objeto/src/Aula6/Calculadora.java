@@ -21,7 +21,11 @@ class Calculadora implements OperacaoMatematica {
 
     @Override
     public void divisao(double operando1, double operando2) {
-       System.out.println("multiplicacao: " + operando1 / operando2);
+       System.out.println("divisão: " + operando1 / operando2);
+    }
+
+    public static void main(String[] args) {
+        System.out.println(multiplicacao);
     }
 
 }
