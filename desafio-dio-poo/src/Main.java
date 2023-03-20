@@ -46,7 +46,7 @@ public class Main {
 
         System.out.println("-------");
 
-        Dev devJoao = new Dev();
+        Dev devJoao = new Dev(); 
         devJoao.setNome("Joao");
         devJoao.inscreverBootcamp(bootcamp);
         System.out.println("Conteúdos Inscritos João:" + devJoao.getConteudosInscritos());
