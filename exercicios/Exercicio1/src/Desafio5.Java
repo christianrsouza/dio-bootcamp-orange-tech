@@ -7,14 +7,17 @@ O seu papel será o de criar um programa que verifique os dados recebidos
 da câmera e envie uma mensagem dizendo se o motorista será multado ou não. */
 
 import java.util.Scanner; 
-    
 public class Desafio5 {
-    
-    public static void main(String[] args) {
+
+    public static void main(String [] args) {
         Scanner leitor = new Scanner(System.in);
         int velocidadeAtual = leitor.nextInt();
-        System.out.println((velocidadeAtual <= 60) ? “Sim” : “Segunda quinzena”);
-
+        
+        if (velocidadeAtual > 60){
+            System.out.println("Foi multado");
+        } else{
+            System.out.println("Nao foi multado");
+        }
         
         // TODO: Crie a condição necessária para verificar se o motorista, de acordo com a entrada, foi multado ou não.
 
