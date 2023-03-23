@@ -7,6 +7,7 @@ ele quer saber quanto terá se juntar todo o dinheiro, sem gastar nada, durante 
 import java.util.Scanner;
 
 public class Desafio1 {
+
     public static void main(String[] args) throws Exception {
         Scanner leitor = new Scanner(System.in);
         System.out.println("Quantos Meses: ");
