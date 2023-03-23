@@ -3,4 +3,14 @@ Para aumentar as vendas o dono resolveu colocar uma máquina onde os clientes,
  principalmente as crianças que estão muito acostumadas com a tecnologia, 
  poderiam colocar suas moedas e receber dois doces aleatórios. Cada 1 real 
  irá render 2 doces aleatórios. */
-
+ import java.util.Scanner; 
+ public class Desafio4 {
+     public static void main(String [] args) {
+         Scanner leitor = new Scanner(System.in);
+         int dinheiro = leitor.nextInt();
+         int resultado;
+         resultado = 2 * dinheiro;
+         System.out.println("O cliente obteve "+ resultado + " doces");
+     }
+     
+ }
