@@ -13,7 +13,7 @@ public class Desafio3 {
         int paginasLidas = 3;
         int resultado ;
         resultado = paginas/paginasLidas;
-        System.out.println(resultado + " Dias");
+        System.out.println(resultado + " dias");
         
     }
 }
