@@ -1,8 +1,15 @@
 <h1>
-ESTRUTURAS DE REPETIÇÃO E ARRAYS COM JAVA
+GERENCIAMENTO DE DEPENDÊNCIAS E BUILD EM JAVA COM MAVEN
 </h1>
 
-<p>Resolução dos exercícios propostos: <strong>ESTRUTURAS DE REPETIÇÃO E ARRAYS NA LINGUAGEM JAVA</strong>.
-Curso este que tive a honra de co-criar com a plataforma de cursos online <strong> <a href="https://web.digitalinnovation.one/home"> DIGITAL INNOVATION ONE  </a></strong> 🧡💛 e disponibilizado de forma gratuita para a comunidade dos desenvolvedores Java.
+<strong>Codigo para criar Maven: </strong></br> quick-start-maven: mvn archetype:generate -DgroupId=one.digitalinnovation -DartifactId=quick-start-maven -Darchetype=maven-archetype-quickstart -DinteractiveMode=false
+</br>
+<strong>Comando basicos de Maven</strong></br>
+
+Compilar:compile</br>
+Testar:test</br>
+Empacotar:packge</br>
+Limpar diretório de trabalho : clean</br>
+
 
 
