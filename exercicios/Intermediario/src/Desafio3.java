@@ -19,8 +19,7 @@ public class Desafio3 {
         String array[] = new String[3];
         
         array = frase.split("/");
-                
-        System.out.println("Imovel: " + array[0] + " R$" + array[1] + " " + array [2]);
+        //System.out.println("Imovel: " + array[0] + " R$" + array[1] + " " + array [2]);
         // TODO: Crie a condição necessária para remover as barras da String e apresentar de forma mais amigável
 
     }

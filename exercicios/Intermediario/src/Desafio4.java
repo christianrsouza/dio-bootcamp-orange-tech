@@ -42,10 +42,15 @@ Entrada                                         	Saída
          String ingredientes = leitor.next();
          String listaIngredientes[] = new String[3];
 
-        array = listaIngredientes.split(";");
+        listaIngredientes = ingredientes.split(";");
                 
-        System.out.println(" " + array[0] + " " + array[1] + " " + array [2]);
-         
+        System.out.println(" " + listaIngredientes[0] );
+        System.out.println(" " + listaIngredientes[1] );
+        System.out.println(" " + listaIngredientes[2] );
+        System.out.println(" " + listaIngredientes[3] );
+       
+    
+     
          // TODO: Crie a condição necessária para formatar e printar o texto da maneira pedida na saída
  
      }
