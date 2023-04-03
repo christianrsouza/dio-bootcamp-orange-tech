@@ -13,15 +13,25 @@ Entrada	Saída
    "Californication.mp3"	      "Salvar"
    "Zeca Pagodinho - Algum Completo.rar" 	      "Deletar"
  */
-import java.util.Scanner; 
+import java.util.Scanner;
+
+import javax.xml.transform.Source; 
     
 public class Desafio1 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
         String arquivoDoPc = leitor.next();
-        arquivoDoPc.contains(.png)
-        System.out.println("deletar")
-        // TODO: Crie a condição necessária para verificar o formato do arquivo de entrada
+        String mp3 = ".mp3";
+        if (arquivoDoPc.contains(mp3)){
 
-    }
+            System.out.println("Salvar");
+       
+           }
+       
+           else{
+       
+            System.out.println("Deletar");
+       
+           }
+}
 }
